@@ -3,7 +3,7 @@ document.getElementById('get-joke').addEventListener('click', async () => {
   jokeEl.textContent = 'Loading joke...';
 
   try {
-    const res = await fetch('https://v2.jokeapi.dev/joke/Programming?type=single');
+    const res = await fetch('https://v2.jokeapi.dev/joke/Any?type=single');
     const data = await res.json();
     jokeEl.textContent = data.joke || "Couldn't fetch a joke!";
   } catch (err) {
