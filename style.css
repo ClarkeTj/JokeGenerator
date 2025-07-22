@@ -27,3 +27,10 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+
+.credit {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
